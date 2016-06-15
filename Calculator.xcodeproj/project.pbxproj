@@ -13,6 +13,7 @@
 		333ED28B1D1073E2002EA9EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333ED2891D1073E2002EA9EB /* Main.storyboard */; };
 		333ED28D1D1073E2002EA9EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333ED28C1D1073E2002EA9EB /* Assets.xcassets */; };
 		333ED2901D1073E2002EA9EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 333ED28E1D1073E2002EA9EB /* LaunchScreen.storyboard */; };
+		333ED2CC1D11C908002EA9EB /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 333ED2CB1D11C908002EA9EB /* Calculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		333ED28C1D1073E2002EA9EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		333ED28F1D1073E2002EA9EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		333ED2911D1073E2002EA9EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		333ED2CA1D11C908002EA9EB /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		333ED2CB1D11C908002EA9EB /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				333ED28E1D1073E2002EA9EB /* LaunchScreen.storyboard */,
 				333ED2911D1073E2002EA9EB /* Info.plist */,
 				333ED2801D1073E2002EA9EB /* Supporting Files */,
+				333ED2CA1D11C908002EA9EB /* Calculator.h */,
+				333ED2CB1D11C908002EA9EB /* Calculator.m */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				333ED2881D1073E2002EA9EB /* ViewController.m in Sources */,
+				333ED2CC1D11C908002EA9EB /* Calculator.m in Sources */,
 				333ED2851D1073E2002EA9EB /* AppDelegate.m in Sources */,
 				333ED2821D1073E2002EA9EB /* main.m in Sources */,
 			);
@@ -300,6 +306,7 @@
 				333ED2961D1073E2002EA9EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

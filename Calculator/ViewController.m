@@ -19,21 +19,26 @@
 
 -(void) viewDidLoad{
     [super viewDidLoad];
+
 }
 
 
 -(IBAction) addButtonPressed{
     double firstValue = [self.firstNumber.text doubleValue];
     double secondValue = [self.secondNumber.text doubleValue];
-    double endValue = firstValue+secondValue;
-    NSString *finalString = [NSString stringWithFormat:@"%.2f", endValue];
+
+    Calculator *calculator =[[Calculator alloc] init];
+    double resultLabel = [calculator add:firstValue secondNumber:secondValue];
+    NSString *finalString = [NSString stringWithFormat:@"%.2f", resultLabel];
     self.resultLabel.text = finalString;
 }
 -(IBAction) subtractButtonPressed{
     double firstValue = [self.firstNumber.text doubleValue];
     double secondValue = [self.secondNumber.text doubleValue];
-    double endValue = firstValue-secondValue;
-    NSString *finalString =[NSString stringWithFormat:@"%.2f", endValue];
+
+    Calculator *calculator =[[Calculator alloc] init];
+    double resultLabel= [calculator subtract:firstValue secondNumber:secondValue];
+    NSString *finalString =[NSString stringWithFormat:@"%.2f", resultLabel];
     self.resultLabel.text = finalString;
     
 
@@ -42,8 +47,10 @@
     NSLog(@"Multiply");
     double firstValue = [self.firstNumber.text doubleValue];
     double secondValue = [self.secondNumber.text doubleValue];
-    double endValue = firstValue*secondValue;
-    NSString *finalString = [NSString stringWithFormat:@"%.2f", endValue];
+    
+    Calculator *calculator =[[Calculator alloc] init];
+    double resultLabel =[calculator multiply:firstValue secondNumber:secondValue];
+    NSString *finalString = [NSString stringWithFormat:@"%.2f", resultLabel];
     self.resultLabel.text = finalString;
 
     
@@ -52,8 +59,14 @@
     NSLog(@"Divide");
     double firstValue = [self.firstNumber.text doubleValue];
     double secondValue = [self.secondNumber.text doubleValue];
-    double endValue = firstValue/secondValue;
-    NSString *finalString =[NSString stringWithFormat:@"%.2f", endValue];
+
+    
+    
+    Calculator *calculator=[[Calculator alloc] init];
+    double resultLabel =[calculator divide:firstValue secondNumber:secondValue];
+    
+    
+    NSString *finalString =[NSString stringWithFormat:@"%.2f", resultLabel];
     self.resultLabel.text=finalString;
     
     

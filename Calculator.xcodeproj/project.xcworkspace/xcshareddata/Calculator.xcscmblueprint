@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CE5EB99F2188C78CEB9D271661A9DD8E2CDC1AFF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7F515F7B21AE7F60BCABCA847F7E48091E266FC9" : 0,
+    "CE5EB99F2188C78CEB9D271661A9DD8E2CDC1AFF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "21A10A15-339B-4E73-9B46-473A41954D3A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7F515F7B21AE7F60BCABCA847F7E48091E266FC9" : "",
+    "CE5EB99F2188C78CEB9D271661A9DD8E2CDC1AFF" : "Calculator%20copy\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Calculator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Calculator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BEMonsterz\/outlets-and-actions.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7F515F7B21AE7F60BCABCA847F7E48091E266FC9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/BEMonsterz\/Calculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CE5EB99F2188C78CEB9D271661A9DD8E2CDC1AFF"
+    }
+  ]
+}
